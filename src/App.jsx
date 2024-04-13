@@ -1,3 +1,5 @@
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -5,8 +7,8 @@ const App = () => {
     <main className="bg-black">
 
       <Navbar/>
-      hero
-      highlight
+      <Hero/>
+      <Highlights/>
     </main>
    );
 };
